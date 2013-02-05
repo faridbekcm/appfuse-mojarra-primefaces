@@ -338,7 +338,7 @@
         <dependency>
             <groupId>javax.el</groupId>
             <artifactId>el-api</artifactId>
-            <version>1.0</version>
+            <version>${el.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -348,13 +348,13 @@
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
+            <artifactId>javax.servlet-api</artifactId>
             <version>${servlet.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jsp-api</artifactId>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>javax.servlet.jsp-api</artifactId>
             <version>${jsp.version}</version>
             <scope>provided</scope>
         </dependency>           
@@ -1006,13 +1006,13 @@
 
         <!-- Framework dependency versions -->
         <acegijsf.version>1.1.3</acegijsf.version>
-        <appfuse.version>2.2-SNAPSHOT</appfuse.version>
+        <appfuse.version>2.2.1</appfuse.version>
         <commons.io.version>2.0.1</commons.io.version>
-        <el.version>1.2</el.version>
-        <servlet.version>2.5</servlet.version>
+        <servlet.version>3.1-b05</servlet.version>
         <jstl.version>1.2</jstl.version>
-        <jsp.version>2.0</jsp.version>                        
+        <jsp.version>2.3.0</jsp.version>                        
         <jsf.version>2.1.2</jsf.version>
+        <el.version>2.2.1-b04</el.version>        
         <primefaces.version>3.4</primefaces.version>
         <primefaces-extensions.version>0.6.1</primefaces-extensions.version>        
         <spring.version>3.1.3.RELEASE</spring.version>
